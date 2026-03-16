@@ -40,7 +40,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text text-white"
           >
-            hello
+            Hello
             <br />
             <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
             & Content Creator

@@ -38,7 +38,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text text-white"
           >
-            Fullstack Developer
+            hello
             <br />
             <span className="text-teal-400">&amp; Content Creator</span>
           </motion.h1>

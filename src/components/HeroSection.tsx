@@ -40,7 +40,9 @@ export default function HeroSection() {
           >
             hello
             <br />
-            <span className="text-teal-400">&amp; Content Creator</span>
+            <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
+            & Content Creator
+            </span>
           </motion.h1>
 
           <motion.p

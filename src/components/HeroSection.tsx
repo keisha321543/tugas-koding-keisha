@@ -36,11 +36,11 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
+            className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text text-white"
           >
-            Hello
+            Fullstack Developer
             <br />
-            <span className="text-gradient">&amp; Content Creator</span>
+            <span className="text-teal-400">&amp; Content Creator</span>
           </motion.h1>
 
           <motion.p
@@ -61,7 +61,7 @@ export default function HeroSection() {
           >
             <Button 
               size="lg" 
-              className="rounded-full px-8 shadow-glow"
+              className="bg-teal-400 text-black font-bold rounded-full px-8 shadow-lg hover:bg-teal-500 transition-colors"
               onClick={() => {
                 const element = document.querySelector('#projects');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
@@ -72,7 +72,7 @@ export default function HeroSection() {
             <Button 
               variant="outline" 
               size="lg" 
-              className="rounded-full px-8"
+              className="border-white text-white font-bold rounded-full px-8 hover:bg-white hover:text-black transition-colors"
               onClick={() => {
                 const element = document.querySelector('#contact');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });

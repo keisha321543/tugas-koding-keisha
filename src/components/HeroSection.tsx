@@ -28,7 +28,9 @@ export default function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2 }}
             >
-              👋 Selamat datang di portfolio saya
+              <span className="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">
+            👋 Selamat datang di portfolio saya
+           </span>  
             </motion.span>
           </motion.div>
 
